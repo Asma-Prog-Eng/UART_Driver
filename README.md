@@ -53,3 +53,5 @@ Limited to 8-bit data words
 Pull requests are welcome. For major changes, open an issue first.
 
 ## License
+MIT License
+Copyright (c) [2025] [Asma Askri]
