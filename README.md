@@ -1,5 +1,5 @@
 UART Driver for STM32 Microcontrollers
-A robust UART driver implementation for STM32 development boards using CMSIS libraries
+Bare metal programming of a robust UART driver implementation for STM32 development board 
 ## Features
 UART initialization with configurable baud rates (1200 - 115200+) and peripheral clock = 8MHz.
 ## Requirements
