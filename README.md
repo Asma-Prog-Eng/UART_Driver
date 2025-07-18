@@ -1,7 +1,7 @@
 UART Driver for STM32 Microcontrollers
 Bare metal programming of a robust UART driver implementation for STM32 development board 
 ## Features
-UART initialization with configurable baud rates (1200 - 115200+) and peripheral clock = 8MHz.
+UART initialization with tested baud rates (1200, 4800, 9600 ,115200) and peripheral clock = 8MHz.
 ## Requirements
 ### Hardware
 - Nucleo STM32 development board (STM32F303x series)
@@ -27,9 +27,9 @@ Receiving Data
 
 ## Project Structure
 
-├── Core
-├── Inc/         → uart.h
-├── Src/         → uart.c, main.c
+├── Core<br />
+├── Inc<br />  → uart.h <br />
+├── Src<br /> → uart.c<br /> → main.c
 
 ## Troubleshooting
 
