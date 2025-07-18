@@ -11,7 +11,7 @@ UART initialization with tested baud rates (1200, 4800, 9600 ,115200) and periph
 ## Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/Asma-Prog-Eng/UART
+   git clone https://github.com/Asma-Prog-Eng/UART_Driver
    
 2. Import project into STM32CubeIDE:
 File → Import... → Existing Projects into Workspace
