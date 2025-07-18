@@ -20,8 +20,7 @@ File → Import... → Existing Projects into Workspace
 3. Rebuild project dependencies
 
 ## Usage
-Initialization
-UART2_init () ;
+Initialization : UART2_init () ;
 Transmitting Data
 Receiving Data 
 
@@ -29,8 +28,8 @@ Receiving Data
 ## Project Structure
 
 ├── Core
-├── Inc/         → uart_driver.h
-├── Src/         → uart_driver.c
+├── Inc/         → uart.h
+├── Src/         → uart.c, main.c
 
 ## Troubleshooting
 
