@@ -29,8 +29,8 @@ Receiving Data
 ## Project Structure
 
 ├── Core
-│   ├── Inc/         → uart_driver.h
-│   ├── Src/         → uart_driver.c
+├── Inc/         → uart_driver.h
+├── Src/         → uart_driver.c
 
 ## Troubleshooting
 
