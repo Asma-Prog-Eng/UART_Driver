@@ -5,9 +5,13 @@ UART initialization with tested baud rates (1200, 4800, 9600 ,115200) and periph
 ### Hardware
 - Nucleo STM32 development board (STM32F303x series)
 - Multimeter (optional for debugging)
+- External LED connected to PB7 (Optional , User LED can be used)
+- Bread Board (Optional if  User LED will be used)
+  
 ### Software
 - STM32CubeIDE or compatible toolchain
 - RealTerm
+  
 ## Installation
 1. Clone this repository:
    ```bash
@@ -19,10 +23,11 @@ File → Import... → Existing Projects into Workspace
 3. Rebuild project dependencies
 
 ## Usage
-Initialization : UART2_init () ;
-Transmitting Data
-Receiving Data 
-
+Initialization : UART2_init () <br />
+Transmitting Data : a character is entered through RealTerm terminal <br />
+Receiving Data: uart2_read() 
+Transmitting the receiveed Data back to RealTerm to be displayed
+If key 1 is pressed then LED connected to PB7 is switched on
 
 ## Project Structure
 
@@ -32,17 +37,17 @@ Receiving Data
 
 ## Troubleshooting
 
-No data received:
-- Verify baud rate settings
-- Check TX/RX pin connections
-- Ensure correct clock configuration
+No data received: <br />
+- Verify baud rate settings <br />
+- Check TX/RX pin connections <br />
+- Ensure correct clock configuration <br />
 
-Garbage characters:
-- Verify clock source accuracy
-- Check voltage levels
+Garbage characters: <br />
+- Verify clock source accuracy <br />
+- Check voltage levels <br />
 - 
-Overrun errors:
-- Increase receive buffer size
+Overrun errors: <br />
+- Increase receive buffer size <br />
 
 ## Known Limitations
 Limited to 8-bit data words
@@ -51,5 +56,5 @@ Limited to 8-bit data words
 Pull requests are welcome. For major changes, open an issue first.
 
 ## License
-MIT License
+MIT License <br />
 Copyright (c) [2025] [Asma Askri]
