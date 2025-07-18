@@ -1,5 +1,4 @@
-UART Driver for STM32 Microcontrollers
-Bare metal programming of a robust UART driver implementation for STM32 development board 
+Bare metal implementation  of a  UART driver for STM32 development board 
 ## Features
 UART initialization with tested baud rates (1200, 4800, 9600 ,115200) and peripheral clock = 8MHz.
 ## Requirements
