@@ -59,8 +59,8 @@ all: main-build
 main-build: UART_Driver.elf secondary-outputs
 
 # Tool invocations
-UART_Driver.elf UART_Driver.map: $(OBJS) $(USER_OBJS) C:\Users\asmae\OneDrive\Bureau\Stm32_Training\.metadata\UART_Driver\STM32F303K8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "UART_Driver.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\asmae\OneDrive\Bureau\Stm32_Training\.metadata\UART_Driver\STM32F303K8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UART_Driver.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+UART_Driver.elf UART_Driver.map: $(OBJS) $(USER_OBJS) C:\Users\asmae\OneDrive\Bureau\STM32_Active_Projects\Nucleo_Board\UART_Driver\STM32F303K8TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "UART_Driver.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\asmae\OneDrive\Bureau\STM32_Active_Projects\Nucleo_Board\UART_Driver\STM32F303K8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UART_Driver.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

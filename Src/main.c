@@ -21,8 +21,7 @@ char key = '\0';
 int main() {
 
 
-
-    UART2_init () ;
+	UART2_init () ;
 
 	 // Enable clock access for Port B
     RCC->AHBENR |= GPIOBEN;
