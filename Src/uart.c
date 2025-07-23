@@ -1,11 +1,3 @@
-/*
-* Clk Freq = 8MH (default)
-* Tx Pin : PA2
-* Rx Pin : PA15
-* Baude Rate : 115200
-* Serial Terminal : RealTerm
-* No external USB to TTL adapter is used
- */
 
 #include <uart.h>
 
