@@ -1,6 +1,6 @@
 Bare metal implementation  of a  UART driver for STM32 development board 
 ## Features
-UART initialization with tested baud rates (1200, 4800, 9600 ,115200) and peripheral clock = 8MHz.
+UART2 initialization with tested baud rates (1200, 4800, 9600 ,115200) and peripheral clock = 8MHz.
 ## Requirements
 ### Hardware
 - Nucleo STM32 development board (STM32F303x series)
