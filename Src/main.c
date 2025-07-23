@@ -1,12 +1,15 @@
-/* Author : Asma Askri
- * Date: 10-07-2025
- * Purpose :
- * Develop UART Transmitter on Nucleo-stm32F303K8
- * That consists on sending a byte from RealTerm
- * If the received character is '1' that the led connected to PB7
- * is turned on , else the received character will be sent back to the terminal
- * to display it.
- * */
+/**
+ ******************************************************************************
+ * @file           : main.c
+ * @author         : Asma Askri
+ * @brief          : Main program body
+ ******************************************************************************
+ * Bare metal implementation of a UART Driver
+ * Transmit a character from RealTerm Terminal 
+ * If received character = '1' then switch on LED at PB7
+ * ELSE switch off LED and display the received character 
+ * 
+ ******************************************************************************/
 
 #include <stdio.h>
 #include "stm32f3xx.h"
